@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5DC"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/autor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="#A52A2A"
+        android:gravity="center"
+        android:text="Gra w kosci Autor:Hubert Poczta"
+        android:textColor="#F5F5DC"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/rzut"
+        android:layout_width="421dp"
+        android:layout_height="51dp"
+        android:background="#D2691E"
+        android:text="Rzuć kościami" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:background="#F5F5DC"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:id="@+id/kosc1"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:padding="9dp"
+            android:gravity="center"
+            android:text="?"
+            android:textSize="48sp"
+            android:background="@android:color/white" />
+
+        <TextView
+            android:id="@+id/kosc2"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:padding="9dp"
+            android:gravity="center"
+            android:text="?"
+            android:textSize="48sp"
+            android:background="@android:color/white" />
+
+        <TextView
+            android:id="@+id/kosc3"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="?"
+            android:padding="9dp"
+            android:textSize="48sp"
+            android:background="@android:color/white" />
+
+        <TextView
+            android:id="@+id/kosc4"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="?"
+            android:textSize="48sp"
+            android:padding="9dp"
+            android:background="@android:color/white" />
+
+        <TextView
+            android:id="@+id/kosc5"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="?"
+            android:textSize="48sp"
+            android:padding="9dp"
+            android:background="@android:color/white" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/wynik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wynik tego losowania:"
+        android:layout_marginTop="20dp"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/wynik_gry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wynik gry: "
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/liczba_rzutow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Liczba rzutów:"
+        android:layout_marginBottom="20dp"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="417dp"
+        android:layout_height="52dp"
+        android:text="Resetuj wynik"
+        android:background="#D2691E" />
+
+</LinearLayout>
